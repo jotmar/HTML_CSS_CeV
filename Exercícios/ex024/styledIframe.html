@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 20px;
+      }
+
+      #frameDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #frame {
+        width: 80vw;
+        height: 400px;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      }
+      .buttons div {
+        border: 1px solid black;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px;
+        background-color: gray;
+      }
+    </style>
+    <title>StyledIframe</title>
+  </head>
+  <body>
+    <div id="frameDiv">
+      <div id="frameInner">
+        <iframe src="" name="frame" id="frame" frameborder="1"
+          >Seu navegador não suporta Iframes</iframe
+        >
+        <div class="buttons">
+          <a href="ExtraPages/page001.html" target="frame"><div></div></a>
+          <a href="ExtraPages/page002.html" target="frame"><div></div></a>
+          <a href="ExtraPages/page003.html" target="frame"><div></div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
