@@ -9,7 +9,7 @@ html,
 body {
   height: 100vh;
   width: 100vw;
-  background-color: aqua;
+  background-color: beige;
 }
 
 body {
@@ -30,6 +30,10 @@ main {
   height: 627px;
   background-image: url('../imagens/frame-iphone.png');
   background-repeat: no-repeat;
+}
+
+#cellphone iframe {
+  overflow: scroll;
 }
 
 #social {
