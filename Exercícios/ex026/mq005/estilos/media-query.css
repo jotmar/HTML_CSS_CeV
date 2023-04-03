@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+  #menuButton {
+    display: none;
+  }
+
+  #itens li {
+    width: fit-content;
+    display: inline-block;
+  }
+
+  main {
+    max-width: 768px;
+  }
+}
