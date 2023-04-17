@@ -72,6 +72,7 @@ section#login {
   margin: 5px 0;
   width: 100%;
   height: 40px;
+  border: 2px solid var(--color2);
   border-radius: 5px;
   color: white;
 }
@@ -85,9 +86,18 @@ section#login {
 
 .campo input {
   display: inline-block;
-  width: 80%;
+  width: 83%;
+  border: none;
+  border-radius: 5px;
+  background-color: #8bc7c5;
   height: 100%;
   padding: 0 3px;
+  outline: none;
+  transition-duration: 0.5s;
+}
+
+.campo input:focus {
+  background-color: white;
 }
 
 .campo label {
