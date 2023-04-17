@@ -34,10 +34,13 @@ section#login {
   height: 500px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.45);
   overflow: hidden;
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
 }
 
-#login > #imagem {
+#imagem {
   display: block;
   height: 200px;
   background: var(--color2) url('../images/pexels-andre-furtado-370717.jpg')
@@ -45,7 +48,7 @@ section#login {
   background-size: cover;
 }
 
-#login #form {
+#form {
   display: block;
   padding: 10px;
 }
