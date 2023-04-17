@@ -40,6 +40,14 @@ section#login {
   transition-timing-function: ease;
 }
 
+#login h1 {
+  text-align: center;
+}
+
+#login p {
+  font-size: 0.8em;
+}
+
 #imagem {
   display: block;
   height: 200px;
@@ -51,4 +59,8 @@ section#login {
 #form {
   display: block;
   padding: 10px;
+}
+
+.campo input {
+  width: 180px;
 }

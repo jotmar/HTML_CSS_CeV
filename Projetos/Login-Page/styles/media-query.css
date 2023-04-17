@@ -38,6 +38,14 @@
     width: 950px;
   }
 
+  #login h1 {
+    font-size: 2em;
+  }
+
+  #login p {
+    font-size: 1.2em;
+  }
+
   #imagem {
     float: right;
     width: 50%;
