@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root {
+  --color1: #49a09d;
+  --color2: #5f2c82;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--color2);
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+section#login {
+  display: block;
+  width: 250px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#login > #imagem {
+  display: block;
+  height: 200px;
+  background: var(--color2) url('../images/pexels-andre-furtado-370717.jpg')
+    no-repeat center center;
+  background-size: cover;
+}
+
+#login #form {
+  display: block;
+  padding: 10px;
+}
