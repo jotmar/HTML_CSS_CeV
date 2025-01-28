@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alinhamento de Itens Empacotados</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: brown;
+      }
+
+      section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-around;
+        width: 80vw;
+        height: 80vh;
+        background-color: aquamarine;
+      }
+
+      article {
+        text-align: center;
+        width: 200px;
+        border: 1px solid black;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <article>A</article>
+        <article>B</article>
+        <article>C</article>
+        <article>D</article>
+        <article>E</article>
+        <article>F</article>
+        <article>G</article>
+      </section>
+    </main>
+  </body>
+</html>
