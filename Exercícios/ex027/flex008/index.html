@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Align-Self</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: aquamarine;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .item {
+        background-color: bisque;
+        padding: 100px;
+        text-align: center;
+        border: 1px solid black;
+      }
+
+      #item1 {
+        align-self: auto;
+      }
+
+      #item2 {
+        align-self: flex-end;
+      }
+
+      #item3 {
+        align-self: stretch;
+      }
+
+      #item4 {
+        align-self: auto;
+      }
+
+      #item5 {
+        align-self: center;
+      }
+
+      #item6 {
+        align-self: auto;
+      }
+
+      #item7 {
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="item" id="item1">A</div>
+        <div class="item" id="item2">B</div>
+        <div class="item" id="item3">C</div>
+        <div class="item" id="item4">D</div>
+        <div class="item" id="item5">E</div>
+        <div class="item" id="item6">F</div>
+        <div class="item" id="item7">G</div>
+      </section>
+    </main>
+  </body>
+</html>
