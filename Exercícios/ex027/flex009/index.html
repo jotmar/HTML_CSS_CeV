@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utilizando o Flex-Basis</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: azure;
+      }
+
+      .item {
+        text-align: center;
+        flex-basis: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: bisque;
+      }
+
+      #item4 {
+        flex-basis: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="item" id="item1">A pouco</section>
+      <section class="item" id="item2">B pouco</section>
+      <section class="item" id="item3">C espaço mediano</section>
+      <section class="item" id="item4">D ocupando muito espaço</section>
+      <section class="item" id="item5">E espaço mediano</section>
+      <section class="item" id="item6">F pouco</section>
+      <section class="item" id="item7">G ocupando muito espaço</section>
+    </main>
+  </body>
+</html>
